@@ -3,12 +3,12 @@ import Typewriter from 'typewriter-effect';
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center bg-gradient-to-t from-slate-100 via-slate-100 to-green-400 h-screen overflow-hidden'>
+    <div className='flex flex-col items-center bg-gradient-to-t from-slate-100 via-slate-100 to-green-200 h-screen overflow-hidden'>
       <main className="flex max-w-5xl gap-6 items-center flex-col w-full">
         <nav className="flex w-full items-center justify-between px-4 py-5">
-          <img src="/logo.png" className="w-[120px]" />
+          <img src="/saaslogo.png" className="w-[120px]" />
           <div className="flex items-center gap-1 justify-around rounded-full bg-black p-1.5 px-4 text-white">
-            <a href="/" className='text-sm' >get early access</a>
+            <a href="https://tally.so/r/mVj71v" className='text-sm' >get early access</a>
             <svg
               className="w-5"
               fill="none"
@@ -30,7 +30,7 @@ const Home = () => {
           <div>
             Simple & Modern WordPress
           </div>
-          <div>  blog Alternative for</div>
+          <div>blog Alternative for</div>
           <div className="text-rose-600">
             <Typewriter
               options={{
@@ -46,9 +46,9 @@ const Home = () => {
             />
           </div>
         </div>
-        <p className="text-center text-xs sm:text-base">Create a blog in 30 seconds with AI SEO!</p>
+        <p className="text-center text-xs sm:text-base">Create a blog in 30 seconds</p>
         <div className="flex w-fit items-center justify-center rounded-full bg-rose-600 p-2 px-4	text-white shadow-xl hover:bg-rose-700 ">
-          <a href="/ai-tools">get early access</a>
+          <a href="https://tally.so/r/mVj71v">get early access</a>
           <svg
             className="w-6"
             fill="none"
