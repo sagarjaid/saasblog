@@ -28,6 +28,8 @@ const SEOMeta = (props) => {
       />
       <link rel="icon" href="https://saasblog.ai/favicon.png" />
 
+      <meta name="google-site-verification" content="YmzAD6iWWE1wG1xLu3KQzCiAZg84XoMEOD8Om-0B9xQ" />
+
     </Head>
   );
 };
