@@ -4,7 +4,7 @@ const Done = () => {
   return (
     <div className='flex flex-col justify-center items-center h-screen gap-6'>
       <div className='text-5xl font-bold'>Thank you!</div>
-      <div>I'm #bulidinpublic, help me spread the word</div>
+      <div>I'm #buildinpublic, help me spread the word</div>
       <div className='flex items-center gap-1 justify-around rounded-full bg-green-600 p-1.5 px-4 text-white'>
         <a
           href='https://twitter.com/jaid_sagar'
