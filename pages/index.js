@@ -13,7 +13,7 @@ const Home = () => {
         <main className="flex max-w-5xl gap-6 items-center flex-col w-full">
           <nav className="flex w-full items-center justify-between px-4 py-5">
             <img src="/saaslogo.png" className="w-[120px]" />
-            <a href='/beta' className="flex items-center gap-1 justify-around rounded-full bg-black p-1.5 px-4 text-white">
+            <a href='https://tally.so/r/mVj71v' className="flex items-center gap-1 justify-around rounded-full bg-black p-1.5 px-4 text-white">
               <span>get early access</span>
               <svg
                 className="w-5"
@@ -53,7 +53,7 @@ const Home = () => {
             </div>
           </div>
           <p className="text-center text-xs sm:text-base">Create a blog in 30 seconds</p>
-          <a href='/beta' className="flex w-fit items-center justify-center rounded-full bg-rose-600 p-2 px-4	text-white shadow-xl hover:bg-rose-700 ">
+          <a href='https://tally.so/r/mVj71v' className="flex w-fit items-center justify-center rounded-full bg-rose-600 p-2 px-4	text-white shadow-xl hover:bg-rose-700 ">
             <span>get early access</span>
             <svg
               className="w-6"
