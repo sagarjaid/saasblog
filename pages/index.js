@@ -9,12 +9,12 @@ const Home = () => {
         title="SaaSblog - Simple & Modern blog for your SaaS/Business"
         description="A WordPress blog Alternative for SaaS Startups, Indie hackers, Businesses and Bloggers"
       />
-      <div className='flex flex-col items-center bg-gradient-to-t from-slate-100 via-slate-100 to-green-200 h-screen overflow-hidden'>
-        <main className="flex max-w-5xl gap-6 items-center flex-col w-full">
+      <div className='flex flex-col gap-8 md:gap-16 items-center bg-gradient-to-t from-white via-white to-green-200 mb-20'>
+        <main className="flex max-w-6xl gap-6 items-center flex-col w-full">
           <nav className="flex w-full items-center justify-between px-4 py-5">
             <img src="/saaslogo.png" className="w-[120px]" />
-            <a href='https://tally.so/r/mVj71v' className="flex items-center gap-1 justify-around rounded-full bg-black p-1.5 px-4 text-white">
-              <span>get early access</span>
+            <a href='https://tally.so/r/mVj71v' className="flex font-semibold items-center gap-1 justify-around rounded-full bg-black p-1.5 px-5 text-white">
+              <span>$49/lifetime</span>
               <svg
                 className="w-5"
                 fill="none"
@@ -76,8 +76,112 @@ const Home = () => {
             <span className='text-xs'>✓ No login is required</span>
           </div>
         </main>
-        <img src="/single-hero.svg" className="pt-8 object-cover w-full max-w-5xl" />
-      </div>
+        <img src="/saasblog-hero.svg" className="object-cover w-full max-w-6xl pt-0 p-6" />
+        <div className="flex max-w-2xl gap-16 md:items-start flex-col w-full p-6 mdx:p-2">
+          <div className='flex flex-col items-center md:items-start md:flex-row gap-6 max-w-6xl'>
+            <div className='font-bold text-xl pt-5'>Features</div>
+            <div className='flex flex-col w-[300px] border-2 border-gray-500 rounded-xl gap-3 p-4 px-6'>
+              <span className="font-bold">Under Development</span>
+              <span>Super fast</span>
+              <span>list blogs</span>
+              <span>Keep it simple!</span>
+              <span>Modern Dashboard</span>
+              <span>Connect your own domain</span>
+              <span> FREE SSL & CDN</span>
+              <span> Mobile friendly UI</span>
+              <span>No-Code Required</span>
+            </div>
+            <div className='hidden md:flex flex-col gap-3 p-4 px-6 text-gray-400'>
+              <span>Coming soon</span>
+              <span>AI SEO title and description</span>
+              <span>Auto Table of Contents</span>
+              <span>Auto-gen Feature Image</span>
+              <span>AI auto generate tags</span>
+              <span>Built in Opt-in form</span>
+              <span>Auto sitemaps & robots.txt</span>
+            </div>
+          </div>
+
+          <div className='flex flex-col items-center md:items-start md:flex-row justify-start max-w-6xl gap-6'>
+            <div className='font-bold text-xl pt-5'>Pricing</div>
+            <div className='flex max-w-sm flex-col shadow-sm bg-green-100  rounded-3xl gap-3 p-6'>
+              <span className="font-bold text-xl">Pre-book your lifetime deal</span>
+              <span>Basic blog</span>
+              <span>Modern Dashboard</span>
+              <span>Connect your own domain</span>
+              <span>FREE SSL & CDN</span>
+              <span>Mobile friendly UI</span>
+              <span>No-Code Required</span>
+              <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-green-600 p-1.5 px-4	text-white hover:bg-green-700 ">
+                $49/lifetime
+              </a>
+              <span className='text-[8px]'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</span>
+            </div>
+          </div>
+
+          <div>
+            <div className='text-sm flex flex-col font-medium gap-6 border p-6 w-full rounded-3xl bg-gradient-to-b from-white via-white to-green-100 '>
+              <div className='text-lg font-bold text-green-600'>Dear founders,</div>
+              <span> As a SaaS founders, we have to wear multiple hats, and one of those hats is growing our SaaS to thousands of users. </span>
+
+              <span> I know how hard it can be. I understand the blood, sweat, and tears that go into building and growing a SaaS startup. </span>
+
+              <span> The late nights spent coding and the continuous search for product-market fit - I've been there, I'm there. </span>
+
+              <span>  At Saasblog.ai, my mission is to provide you with a simple, modern, and SEO-friendly blogging platform tailored specifically for SaaS startups. </span>
+
+              <span> We are designing Saasblog with you in mind, knowing that your time is precious and your focus should be on building and scaling your business. </span>
+
+              <span> Not struggling with complex blogging tools, and we promise you won't have to worry about SSL, page loading speed optimization, hosting, and maintenance. </span>
+
+              <span>  Saasblog is more than just a blogging platform. It's a community of like-minded individuals like you. </span>
+
+              <span> When you succeed, we celebrate. We are here to listen, learn, and adapt to your needs. </span>
+
+              <span> Constantly improving our platform based on your feedback. </span>
+
+              <span> Join Saasblog - the blogging platform built with SaaS founders in mind. </span>
+
+              <span> I hope this letter finds you well, filled with passion. </span>
+
+              <span>  With gratitude  </span>
+
+              <div>
+                <div className='flex gap-4 items-center'>
+                  <img src="/sagar.png" className="w-16" />
+                  <div className='flex flex-col'>
+                    <span className='font-bold text-base'>Sagar Jaid</span>
+                    <span>founder at Saasblog</span>
+                    <span className='flex gap-2 mt-1'>
+                      <a href="https://www.linkedin.com/in/sagarjaid/" target="_blank">
+                        <img className="w-4 h-4" src="./linkedin.png" />
+                      </a>
+                      <a
+                        href="https://twitter.com/jaid_sagar"
+                        target="_blank"
+                        className="pt-0.5"
+                      >
+                        <img className="w-[17px] h-[17px]" src="./twitter.png" />
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className='flex justify-center items-center m-auto max-w-4xl gap-8'>
+            <div className='flex items-center max-w-lg flex-col shadow-md bg-rose-500 text-white  rounded-3xl gap-3 p-8'>
+              <div className="font-bold text-xl">Pre-book your lifetime deal</div>
+              <div className='text-xs text-center'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</div>
+              <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-white p-1.5 px-4	text-black hover:scale-105 ">
+                $49/lifetime
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div >
     </>
   )
 }
