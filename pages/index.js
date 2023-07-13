@@ -76,7 +76,7 @@ const Home = () => {
             <span className='text-xs'>✓ No login is required</span>
           </div>
         </main>
-        <img src="/saasblog-hero.svg" className="object-cover w-full max-w-6xl pt-0 p-6" />
+        <img src="/saasblog-hero.svg" className="object-cover w-full md:max-w-6xl pt-0 md:p-6" />
         <div className="flex max-w-2xl gap-16 md:items-start flex-col w-full p-6 mdx:p-2">
           <div className='flex flex-col items-center md:items-start md:flex-row gap-6 max-w-6xl'>
             <div className='font-bold text-xl pt-5'>Features</div>
