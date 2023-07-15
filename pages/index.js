@@ -9,11 +9,11 @@ const Home = () => {
         title="SaaSblog - Simple & Modern blog for your SaaS/Business"
         description="A WordPress blog Alternative for SaaS Startups, Indie hackers, Businesses and Bloggers"
       />
-      <div className='flex flex-col gap-8 md:gap-16 items-center bg-gradient-to-t from-white via-white to-green-200 mb-20'>
+      <div className='flex flex-col gap-8 md:gap-16 items-center bg-gradient-to-t from-white via-white to-green-300'>
         <main className="flex max-w-6xl gap-6 items-center flex-col w-full">
           <nav className="flex w-full items-center justify-between px-4 py-5">
-            <img src="/saaslogo.png" className="w-[120px]" />
-            <a href='https://tally.so/r/mVj71v' className="flex font-semibold items-center gap-1 justify-around rounded-full bg-black p-1.5 px-5 text-white">
+            <img src="/saaslogo-2.png" className="w-[150px]" />
+            <a href='https://sagarjaid.gumroad.com/l/saasblog' target="_blank" className="flex font-semibold items-center gap-1 justify-around rounded-full bg-black p-1.5 px-5 text-white hover:shadow-md">
               <span>$49/lifetime</span>
               <svg
                 className="w-5"
@@ -32,19 +32,18 @@ const Home = () => {
               </svg>
             </a>
           </nav>
-          <div className='flex flex-col items-center pt-16 text-base font-extrabold xs:text-2xl sdm:text-3xl sm:gap-3 md:text-4xl mdx:text-5xl '>
+          <div className='flex flex-col items-center pt-16 text-base font-extrabold xs:text-2xl sdm:text-3xl sm:gap-4 md:text-4xl mdx:text-5xl '>
             <div>
-              Simple & Modern WordPress
+              A Simple Blogging Platform
             </div>
-            <div>blog Alternative for</div>
+            <div>tailored Specifically for</div>
             <div className="text-rose-600">
               <Typewriter
                 options={{
                   strings: [
-                    'Indie Hackers',
                     'SaaS Startups',
-                    "Bloggers",
-                    "Business"
+                    "Businesses",
+                    'Indie Hackers'
                   ],
                   autoStart: true,
                   loop: true,
@@ -80,8 +79,8 @@ const Home = () => {
         <div className="flex max-w-2xl gap-16 md:items-start flex-col w-full p-6 mdx:p-2">
           <div className='flex flex-col items-center md:items-start md:flex-row gap-6 max-w-6xl'>
             <div className='font-bold text-xl pt-5'>Features</div>
-            <div className='flex flex-col w-[300px] border-2 border-gray-500 rounded-xl gap-3 p-4 px-6'>
-              <span className="font-bold">Under Development</span>
+            <div className='flex flex-col w-[300px] border-2 border-green-500 rounded-xl gap-3 p-4 px-6'>
+              <span className="font-bold text-green-600">Under Development</span>
               <span>Super fast</span>
               <span>list blogs</span>
               <span>Keep it simple!</span>
@@ -104,7 +103,7 @@ const Home = () => {
 
           <div className='flex flex-col items-center md:items-start md:flex-row justify-start max-w-6xl gap-6'>
             <div className='font-bold text-xl pt-5'>Pricing</div>
-            <div className='flex max-w-sm flex-col shadow-sm bg-green-100  rounded-3xl gap-3 p-6'>
+            <div className='flex max-w-sm text-white flex-col shadow-sm bg-rose-500  rounded-3xl gap-4 p-6'>
               <span className="font-bold text-xl">Pre-book your lifetime deal</span>
               <span>Basic blog</span>
               <span>Modern Dashboard</span>
@@ -112,7 +111,7 @@ const Home = () => {
               <span>FREE SSL & CDN</span>
               <span>Mobile friendly UI</span>
               <span>No-Code Required</span>
-              <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-green-600 p-1.5 px-4	text-white hover:bg-green-700 ">
+              <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-white p-1.5 px-4	text-black hover:scale-105 ">
                 $49/lifetime
               </a>
               <span className='text-[8px]'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</span>
@@ -169,17 +168,37 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div className='flex flex-col items-center m-auto gap-6  mb-10'>
+            <div className='flex justify-center items-center m-auto max-w-4xl gap-8'>
+              <div className='flex items-center max-w-lg flex-col shadow-md bg-rose-500 text-white  rounded-3xl gap-3 p-8'>
+                <div className="font-bold text-xl">Pre-book your lifetime deal</div>
+                <div className='text-xs text-center'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</div>
+                <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-white p-1.5 px-4	text-black hover:scale-105 ">
+                  $49/lifetime
+                </a>
+              </div>
+            </div>
 
-          <div className='flex justify-center items-center m-auto max-w-4xl gap-8'>
-            <div className='flex items-center max-w-lg flex-col shadow-md bg-rose-500 text-white  rounded-3xl gap-3 p-8'>
-              <div className="font-bold text-xl">Pre-book your lifetime deal</div>
-              <div className='text-xs text-center'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</div>
-              <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-white p-1.5 px-4	text-black hover:scale-105 ">
-                $49/lifetime
-              </a>
+            <div className='flex flex-col text-xl font-semibold gap-6 justify-center items-center'>
+              <div>Or</div>
+              <div>Give us Shootout!</div>
+              <div className='flex gap-6'>
+                <a href="https://www.linkedin.com/in/sagarjaid/" target="_blank">
+                  <img className="w-8" src="./linkedin-dark.png" />
+                </a>
+                <a
+                  href="https://twitter.com/jaid_sagar"
+                  target="_blank"
+                // className="pt-0.5"
+                >
+                  <img className="w-10" src="./twitter-dark.png" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
+
+        <div className='text-xs flex gap-1 items-center justify-center p-6'><span>made in </span><img className="w-2.5" src="./love.png" /> <span>with Saas</span></div>
 
       </div >
     </>
