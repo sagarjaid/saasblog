@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <SEOMeta
         title="SaaSblog - A Simple Blogging Platform tailored for your SaaS"
-        description="A WordPress blog Alternative for SaaS Startups, Indie hackers, Businesses and Bloggers"
+        description="A WordPress blog Alternative tailor made for SaaS Startups, Indie hackers, Businesses and Bloggers"
       />
       <div className='flex flex-col gap-8 md:gap-14 items-center '>
         <div className='flex flex-col items-center bg-gradient-to-t from-white via-green-200 to-white w-full m-auto md:px-6'>
@@ -103,20 +103,20 @@ const Home = () => {
             </div>
           </div>
 
-          <div className='flex flex-col items-center md:items-start md:flex-row justify-start max-w-6xl gap-6'>
+          <div className='flex flex-col items-center md:items-start md:flex-row justify-start w-full  gap-6'>
             <div className='font-bold text-xl pt-5'>Pricing</div>
-            <div className='flex max-w-sm text-white flex-col shadow-sm bg-rose-500  rounded-3xl gap-4 p-6'>
+            <div className='flex w-full flex-grow text-white flex-col shadow-sm bg-rose-500 border-4 border-yellow-200 hover:border-yellow-300 rounded-3xl gap-4 p-6'>
               <span className="font-bold text-xl">Pre-book your lifetime deal</span>
-              <span>Basic blog</span>
-              <span>Modern Dashboard</span>
-              <span>Connect your own domain</span>
-              <span>FREE SSL & CDN</span>
-              <span>Mobile friendly UI</span>
-              <span>No-Code Required</span>
-              <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-white p-1.5 px-4	text-black hover:scale-105 ">
+              <span className='ml-2'>Basic blog</span>
+              <span className='ml-2'>Modern Dashboard</span>
+              <span className='ml-2'>Connect your own domain</span>
+              <span className='ml-2'>FREE SSL & CDN</span>
+              <span className='ml-2'>Mobile friendly UI</span>
+              <span className='ml-2'>No-Code Required</span>
+              <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex ml-2 w-fit font-semibold items-center justify-center rounded-full bg-white p-1.5 px-4	text-black hover:scale-105 ">
                 $49/lifetime
               </a>
-              <span className='text-[8px]'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</span>
+              <span className='text-[8px] ml-2'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</span>
             </div>
           </div>
 
@@ -172,7 +172,7 @@ const Home = () => {
           </div>
           <div className='flex flex-col items-center m-auto gap-6  mb-10'>
             <div className='flex justify-center items-center m-auto max-w-4xl gap-8'>
-              <div className='flex items-center max-w-lg flex-col shadow-md bg-rose-500 text-white  rounded-3xl gap-3 p-8'>
+              <div className='flex items-center flex-col bg-rose-500 text-white  rounded-3xl gap-3 p-8'>
                 <div className="font-bold text-xl">Pre-book your lifetime deal</div>
                 <div className='text-xs text-center'>You will be sing-up for early beta which is expected to live on 30 August 2023 and bugs are expected in first few versions</div>
                 <a href='https://sagarjaid.gumroad.com/l/saasblog' className="flex w-fit font-semibold items-center justify-center rounded-full bg-white p-1.5 px-4	text-black hover:scale-105 ">
