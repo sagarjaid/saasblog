@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <SEOMeta
-        title="SaaSblog - Simple & Modern blog for your SaaS/Business"
+        title="SaaSblog - A Simple Blogging Platform tailored for your SaaS"
         description="A WordPress blog Alternative for SaaS Startups, Indie hackers, Businesses and Bloggers"
       />
       <div className='flex flex-col gap-8 md:gap-14 items-center '>
@@ -121,7 +121,7 @@ const Home = () => {
           </div>
 
           <div>
-            <div className='text-sm flex flex-col font-medium gap-6 border p-6 w-full rounded-3xl bg-gradient-to-b from-white via-white to-green-100 '>
+            <div className='text-sm flex flex-col border-black font-medium gap-6 border p-6 w-full rounded-3xl bg-gradient-to-b from-white via-white to-green-100 '>
               <div className='text-lg font-bold text-green-600'>Dear founders,</div>
               <span> As a SaaS founders, we have to wear multiple hats, and one of those hats is growing our SaaS to thousands of users. </span>
 
