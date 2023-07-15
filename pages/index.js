@@ -9,14 +9,54 @@ const Home = () => {
         title="SaaSblog - Simple & Modern blog for your SaaS/Business"
         description="A WordPress blog Alternative for SaaS Startups, Indie hackers, Businesses and Bloggers"
       />
-      <div className='flex flex-col gap-8 md:gap-16 items-center bg-gradient-to-t from-white via-white to-green-300'>
-        <main className="flex max-w-6xl gap-6 items-center flex-col w-full">
-          <nav className="flex w-full items-center justify-between px-4 py-5">
-            <img src="/saaslogo-2.png" className="w-[150px]" />
-            <a href='https://sagarjaid.gumroad.com/l/saasblog' target="_blank" className="flex font-semibold items-center gap-1 justify-around rounded-full bg-black p-1.5 px-5 text-white hover:shadow-md">
-              <span>$49/lifetime</span>
+      <div className='flex flex-col gap-8 md:gap-14 items-center '>
+        <div className='flex flex-col items-center bg-gradient-to-t from-white via-green-200 to-white w-full m-auto md:px-6'>
+          <main className="flex max-w-6xl gap-6 items-center flex-col w-full ">
+            <nav className="flex w-full items-center justify-between px-4 py-5">
+              <img src="/saaslogo-2.png" className="w-[140px]" />
+              <a href='https://sagarjaid.gumroad.com/l/saasblog' target="_blank" className="flex font-semibold items-center gap-1 justify-around rounded-full bg-black p-1.5 px-5 text-white hover:shadow-md">
+                <span>$49/lifetime</span>
+                <svg
+                  className="w-5"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={1.5}
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                  />
+                </svg>
+              </a>
+            </nav>
+            <div className='flex flex-col items-center pt-16 text-base font-extrabold xs:text-2xl sdm:text-3xl sm:gap-4 md:text-4xl mdx:text-5xl '>
+              <div>
+                A Simple Blogging Platform
+              </div>
+              <div>tailored Specifically for</div>
+              <div className="text-rose-600">
+                <Typewriter
+                  options={{
+                    strings: [
+                      'SaaS Startups',
+                      "Businesses",
+                      'Indie Hackers'
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </div>
+            </div>
+            <p className="text-center text-xs sm:text-base">Create a blog in 30 seconds</p>
+            <a href='https://tally.so/r/mVj71v' className="flex w-fit items-center justify-center rounded-full bg-rose-600 p-2 px-4	text-white shadow-xl hover:bg-rose-700 ">
+              <span>get early access</span>
               <svg
-                className="w-5"
+                className="w-6"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={1.5}
@@ -31,55 +71,17 @@ const Home = () => {
                 />
               </svg>
             </a>
-          </nav>
-          <div className='flex flex-col items-center pt-16 text-base font-extrabold xs:text-2xl sdm:text-3xl sm:gap-4 md:text-4xl mdx:text-5xl '>
-            <div>
-              A Simple Blogging Platform
+            <div className="flex flex-col items-center gap-1 text-center  text-gray-600 sm:text-base">
+              <span className='text-xs'>✓ No credit card required</span>
+              <span className='text-xs'>✓ No login is required</span>
             </div>
-            <div>tailored Specifically for</div>
-            <div className="text-rose-600">
-              <Typewriter
-                options={{
-                  strings: [
-                    'SaaS Startups',
-                    "Businesses",
-                    'Indie Hackers'
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </div>
-          </div>
-          <p className="text-center text-xs sm:text-base">Create a blog in 30 seconds</p>
-          <a href='https://tally.so/r/mVj71v' className="flex w-fit items-center justify-center rounded-full bg-rose-600 p-2 px-4	text-white shadow-xl hover:bg-rose-700 ">
-            <span>get early access</span>
-            <svg
-              className="w-6"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={1.5}
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
-              />
-            </svg>
-          </a>
-          <div className="flex flex-col items-center gap-1 text-center  text-gray-600 sm:text-base">
-            <span className='text-xs'>✓ No credit card required</span>
-            <span className='text-xs'>✓ No login is required</span>
-          </div>
-        </main>
-        <img src="/saasblog-hero.svg" className="object-cover w-full md:max-w-6xl pt-0 md:p-6" />
+          </main>
+        </div>
+        <img src="/saasblog-hero.svg" className="object-cover w-full md:max-w-6xl px-6 -p-3" />
         <div className="flex max-w-2xl gap-16 md:items-start flex-col w-full p-6 mdx:p-2">
           <div className='flex flex-col items-center md:items-start md:flex-row gap-6 max-w-6xl'>
             <div className='font-bold text-xl pt-5'>Features</div>
-            <div className='flex flex-col w-[300px] border-2 border-green-500 rounded-xl gap-3 p-4 px-6'>
+            <div className='flex flex-col w-[320px] border-2 border-green-500 rounded-xl gap-2 p-4 px-6'>
               <span className="font-bold text-green-600">Under Development</span>
               <span>Super fast</span>
               <span>list blogs</span>
@@ -90,7 +92,7 @@ const Home = () => {
               <span> Mobile friendly UI</span>
               <span>No-Code Required</span>
             </div>
-            <div className='hidden md:flex flex-col gap-3 p-4 px-6 text-gray-400'>
+            <div className='hidden md:flex flex-col gap-3 p-4  text-gray-400'>
               <span>Coming soon</span>
               <span>AI SEO title and description</span>
               <span>Auto Table of Contents</span>
