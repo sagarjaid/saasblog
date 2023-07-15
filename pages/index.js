@@ -77,7 +77,7 @@ const Home = () => {
             </div>
           </main>
         </div>
-        <img src="/saasblog-hero.svg" className="object-cover w-full md:max-w-6xl px-6 -p-3" />
+        <img src="/saasblog-hero.svg" className="object-cover w-full md:max-w-6xl mdx:px-6 mdx:-pt-3" />
         <div className="flex max-w-2xl gap-16 md:items-start flex-col w-full p-6 mdx:p-2">
           <div className='flex flex-col items-center md:items-start md:flex-row gap-6 max-w-6xl'>
             <div className='font-bold text-xl pt-5'>Features</div>
