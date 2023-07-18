@@ -10,14 +10,13 @@ export default async function handler(req, res) {
 
     const template_repo = "sagar"
 
-    const newRepoName = "copy-my-app"
+    const newRepoName = "copy-my-app-2"
 
     const originalOwner = "sagarjaid"
 
     const template_owner = "sagarjaid"
 
     const token = "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"
-
 
 
     const octokit = new Octokit({
