@@ -34,7 +34,6 @@ const SidebarMenu = () => {
                     </div>
 
                     <div className="pl-8  hover:bg-stone-50 w-full px-2 py-1 rounded-md cursor-pointer">Add Post</div>
-                    <div className="pl-8  hover:bg-stone-50 w-full px-2 py-1 rounded-md cursor-pointer">All Posts</div>
                     <div className="pl-8 hover:bg-stone-50 w-full px-2 py-1 rounded-md cursor-pointer">Categories</div>
                     <div className="pl-8  hover:bg-stone-50 w-full px-2 py-1 rounded-md cursor-pointer">Tags</div>
                 </div>
